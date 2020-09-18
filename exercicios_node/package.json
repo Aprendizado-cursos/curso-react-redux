@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.20"
+  },
+  "name": "exercicios_node",
+  "version": "1.0.0",
+  "description": "Exercicios sobre node",
+  "main": "ex01.js",
+  "author": "Leonardo Petta do Nascimento",
+  "license": "MIT"
+}

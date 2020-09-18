@@ -1,0 +1,24 @@
+.Mega button {
+    margin-left: 15px;
+}
+
+.Mega input {
+    width : 40px;
+    margin: 15px;
+}
+
+.Mega #divNumeros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Mega .divNumero {
+    border       : 2px solid;
+    border-radius: 100%;
+    border-color: rgb(191, 216, 184);
+    background-color: rgb(128, 241, 166);
+    width        : 40px;
+    padding      : 6px 1px 6px 1px;
+    margin       : 10px;
+}
