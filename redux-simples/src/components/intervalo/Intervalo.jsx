@@ -6,15 +6,15 @@ export default props => {
     return (
         <Card title="Intervalo de Números" red>
             <div className="Intervalo">
-            <span>
-                <strong>Minímo: </strong>
-                <input type="number" value={0} readOnly/>
-            </span>
-            <span>
-                <strong>Máximo: </strong>
-                <input type="number" value={10} readOnly/>
-            </span>
-            </div>           
+                <span>
+                    <strong>Minímo: </strong>
+                    <input type="number" value={props.min} onChange={e => props.onMinChange(+e.target.value)} />
+                </span>
+                <span>
+                    <strong>Máximo: </strong>
+                    <input type="number" value={props.max} onChange={e => props.onMaxChange(+e.target.value)} />
+                </span>
+            </div>
         </Card>
     )
 }
